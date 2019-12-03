@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML Prediction</title>
+</head>
+<body>
+    Welcome to Employee Attrition. We will be using ML.
+
+    <form action="{{ url_for('attrition') }}" method="post">
+      <div>
+        <label>Employee_ID</label>
+        <input type="text" name="EmployeeID">
+      </div>
+      <div>
+        <label>Over_Time</label>/
+        <input type="text" name="OverTime">
+      </div>
+      <div>
+        <label>Age</label>
+        <input type="text" name="Age">
+      </div>
+      <div>
+        <label>Employee_Job_Level</label>
+        <input type="text" name="EmpJobLevel">
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</body>
+</html>

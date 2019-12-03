@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML Prediction</title>
+</head>
+<body>
+    Welcome to Employee Preformance Rating. We will be using ML.
+
+<form action="{{ url_for('rating') }}" method="post">
+      <div>
+        <label>Employee_ID</label>
+        <input type="text" name="EmployeeID">
+      </div>
+      <div>
+        <label>Last_Salary_Hike</label>/
+        <input type="text" name="EmpLastSalaryHikePercent">
+      </div>
+      <div>
+        <label>Environment_Satisfaction</label>
+        <input type="text" name="EmpEnvironmentSatisfaction">
+      </div>
+      <div>
+        <label>Work_Life_Balance</label>
+        <input type="text" name="EmpWorkLifeBalance">
+      </div>
+      <div>
+        <label>Years</label>
+        <input type="text" name="YearsSinceLastPromotion">
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</body>
+</html>
