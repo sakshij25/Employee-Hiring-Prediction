@@ -13,4 +13,4 @@ Python
 
 # Libraries Used:
 
-flask, scikit-learn, pandas, 
+flask, scikit-learn, pandas, sklearn.model_selection, sklearn.metrics, sklearn.tree, sklearn.externals, numpy
